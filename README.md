@@ -4,7 +4,7 @@ Name - **SAIKIRAN JUTTU** & **KIRTI KSHIRSAGAR**
 - Using Windows 10, VScode,OpenCV 4.9(recent one),Pytorch and python.
 - Using 2 Time Travel Day (submitting on 3rd April 2024)
 
-## This is a Readme file for Project-5 this includes all the details that are necessary to run the program.For this project, we have differnt files for different tasks.
+## This is a Readme file for Project-5, which includes all the details that are necessary to run the program. For this project, we have differnt files for different tasks.
 
 ### Task-1
 
