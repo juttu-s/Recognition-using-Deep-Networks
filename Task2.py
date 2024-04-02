@@ -41,6 +41,12 @@ print(model)
 first_layer_weights = model.conv1.weight.data
 print("Shape of the first layer weights:", first_layer_weights.shape)
 
+# Print the filter weights and their shape
+for i in range(10):
+    print(f"Filter {i} shape:", first_layer_weights[i, 0].shape)
+    print(f"Filter {i} weights:\n", first_layer_weights[i, 0])
+    print()
+
 # Visualize the ten filters
 fig = plt.figure(figsize=(10, 8))
 for i in range(10):
