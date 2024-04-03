@@ -76,6 +76,7 @@ optimizer = optim.SGD([p for p in model.parameters() if p.requires_grad], lr=0.0
 
 # Train the network
 num_epochs = 5
+train_losses = []  # Store training losses for plotting
 for epoch in range(num_epochs):
     model.train()
     running_loss = 0.0
@@ -89,9 +90,19 @@ for epoch in range(num_epochs):
         running_loss += loss.item()
         if i % 100 == 99:
             print('[%d, %5d] loss: %.3f' % (epoch + 1, i + 1, running_loss / 100))
+            train_losses.append(running_loss / 100)  # Append current loss for plotting
             running_loss = 0.0
 
 print('Finished Training')
+
+# Plot training loss over epochs
+plt.plot(np.linspace(0, num_epochs, len(train_losses)), train_losses, label='Training Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.title('Training Loss over Epochs')
+plt.legend()
+plt.show()
+
 
 # Test the network
 model.eval()
