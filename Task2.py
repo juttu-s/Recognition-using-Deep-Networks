@@ -51,7 +51,7 @@ for i in range(10):
 fig = plt.figure(figsize=(10, 8))
 for i in range(10):
     plt.subplot(3, 4, i + 1)
-    plt.imshow(first_layer_weights[i, 0].cpu(), cmap='plasma')
+    plt.imshow(first_layer_weights[i, 0].cpu(), cmap='viridis')
     plt.title(f'Filter {i}')
     plt.xticks([])
     plt.yticks([])
