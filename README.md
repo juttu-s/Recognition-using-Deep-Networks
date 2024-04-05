@@ -15,7 +15,7 @@ Name - **SAIKIRAN JUTTU** & **KIRTI KSHIRSAGAR**
     - Part C: In this task, we train the model for **10 epochs** and evaluate the model on both the train and test sets after each epoch. We chose the batch size to be **64**. We also generate plots for train and test accuracy.
     - Part D: In this task, after training the network we saved it to a file in the results folder.
     - Part E: In this task, we read the network in evaluation mode and run the model on the first 10 examples in the test set. 
-    - Part F: In this task, we have created a folder containing handwritten digits and processed the images and matched their intensities with the intensities of the test data. We have then evaluated the model on these handwritten digits and checked how well it performs.
+    - Part F: In this task, we have created a folder containing handwritten digits and processed the images and matched their intensities with the intensities of the test data. We have then evaluated the model on these handwritten digits and checked how well it performs. Link to the folder https://drive.google.com/file/d/13sv_1epydiEhZGhdywV4Z56xP0rGZjMb/view?usp=sharing
 
 ### Task-2
 - This task has been implemented in the **Task2.py** file.
@@ -29,7 +29,7 @@ Name - **SAIKIRAN JUTTU** & **KIRTI KSHIRSAGAR**
 - Here, we loaded pre-trained weights from a file, froze the network weights and replaced the last layer with a new Linear layer with three nodes.
 - We also investigated the number of epochs required to achieve nearly perfect identification using the 27 provided examples.
 - We also visualized a plot depicting the training error.
-- Later, we used our images of alpha, beta and gamma to evaluate the classification accuracy of the trained network. 
+- Later, we used our images of alpha, beta and gamma to evaluate the classification accuracy of the trained network. Link to the folder https://drive.google.com/file/d/17tIHJPr8wvfiqQnRZGCUmp6Oya2NqxAc/view?usp=sharing
 
 ### Task-4
 - This task has been implemented in the **Task4.py** file.
@@ -40,6 +40,7 @@ Name - **SAIKIRAN JUTTU** & **KIRTI KSHIRSAGAR**
     - Whether to add another dropout layer after the fully connected layer
     - The number of epochs of training
     - The batch size while training
+- I have attached a link to a file which contains the results with each and every experiment. https://docs.google.com/document/d/1Fx5oDVn7oQNjFx3dH4n3B2lFua0LDxREIDB1wCW-io8/edit?usp=sharing
 
 
 # Extension:
